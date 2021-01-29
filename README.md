@@ -1,8 +1,8 @@
-# docker-apache
+# docker-apache-fpm
 
 Apache2 with   
 
--  mod_headers
+- mod_headers
 - mod_alias
 - mod_rewrite
 - mod_proxy_wstunnel
