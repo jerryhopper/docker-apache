@@ -3,7 +3,7 @@ MAINTAINER hopper.jerry@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN mkdir -p /app && \
+RUN mkdir -p /app/web && \
 	mkdir -p /usr/local/apache2/conf/other/
 
 COPY app.conf /usr/local/apache2/conf/other/app.conf
