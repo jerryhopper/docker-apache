@@ -1,4 +1,4 @@
-FROM httpd:2.4-alpine
+FROM httpd:latest
 MAINTAINER hopper.jerry@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
